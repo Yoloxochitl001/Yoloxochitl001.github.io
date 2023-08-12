@@ -8,11 +8,8 @@
  }
 
 header{
-     width: 100%;
-     height: auto;
-     position: relative;
-
-
+     display: flex;
+     justify-content: space-between;
 }
 video{
      width:100%;
@@ -52,4 +49,4 @@ h1::after{
     height:100%;
     background: #1c1c1d;
     opacity:0.5;
-    mix-blend-mode: overlay;
+    mix-blend-mode: overlay;}
