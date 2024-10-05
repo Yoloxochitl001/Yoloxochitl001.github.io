@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
+  <diagram name="Página-1" id="4O7hF0x_2-I9LnPjZF6v">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Presupuesto de una empresa" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349" y="49" width="200" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Recursos económicos" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1350" y="52" width="181" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Equilibrio presupuestario" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="678" y="87" width="210" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Planificación financiera" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1049" y="123" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Análisis de costos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="12" y="8" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Ingresos esperados" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="107" width="195" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Incluye" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.03;entryX=0.08;entryY=-0.01;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="31" />
+              <mxPoint x="1299" y="31" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Determina" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0;entryY=0.51;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Depende de" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.1;entryX=0;entryY=0.49;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="968" y="76" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Supuesto clave" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0;entryY=0.49;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="968" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Afecta" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.23;entryY=0.99;" edge="1" parent="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1299" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Contribuye a" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.07;" edge="1" parent="1" source="6" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Contribuye a" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.92;" edge="1" parent="1" source="7" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
